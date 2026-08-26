@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    border-bottom: 3px solid #f5a623;
+}
+
+header .logo{
+    transition: 0.4s;
+}
+
+header .logo:hover{
+    transform: scale(1.5);
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navbar a{
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+    color: #f5a623;
+}
+
+.register{
+    background-color: #f5a623;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.register:hover{
+    border: 1px solid #f5a623;
+    background-color: white;
+    color: #f5a623;
+}
+
+.hero{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    padding: 0 60px;
+    z-index: 1;
+}
+
+.hero-text{
+    color: white;
+    max-width: 420px;
+    margin: 0 100px;
+}
+
+.hero-text::before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #f5a623;
+    margin-bottom: 20px;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.hero-text h1:hover{
+    transform: scale(1.2);
+    color: rgb(14, 92, 188);
+}
+
+.hero-text p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #cccc;
+    margin-bottom: 30px;
+}
+
+.hero-img{
+    position: relative;
+    top: 100px;
+    transition: 0.3s;
+}
+
+.hero-img:hover{
+    transform: translateX(20px) rotate(-2deg) scale(1.1)
+}
+
+.hero-img img{
+    border-radius: 10px;
+}
+
+.about{
+    margin: 200px;
+}
+
+.about h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid #f5a623;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff8f0;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px black;
+}
+
+.card img{
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.card h5{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+    text-align: center;
+}
+
+.sale{
+    width: 80%;
+    height: 500px;
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.sale-text h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.sale-text h1:hover{
+    transform: scale(1.1);
+    color: rgb(14, 92, 188);
+}
+
+.sale-text p{
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.sale-img{
+    position: relative;
+    top: -100px;
+    right: -40px;
+    transition: 0.4s;
+}
+
+.sale-img:hover{
+    transform: translateX(20px) rotate(5deg) scale(1.1);
+}
+
+.sale-img img{
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #cccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+footer .footer-img{
+    transition: 0.4s;
+}
+
+footer .footer-img:hover{
+    transform: scale(1.5);
+}
+
+footer .footer-contact{
+    display: flex;
+    gap: 10px;
+}
+
+footer .footer-contact a{
+    transition: 0.4s;
+}
+
+footer .footer-contact a:hover{
+    transform: scale(1.5);
+}
